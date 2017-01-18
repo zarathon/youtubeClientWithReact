@@ -1,25 +1,26 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+# YouTube Client with ReactJS
 
 ###Getting Started###
 
-There are two methods for getting started with this repo.
+First you need npm!
 
 ####Familiar with Git?#####
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
+	> git clone https://github.com/zarathon/youtubeClientWithReact.git
+	> cd youtubeClientWithReact
 	> npm install
 	> npm start
 ```
 
 ####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Click [here](https://github.com/zarathon/youtubeClientWithReact) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
 	> npm install
 	> npm start
 ```
+####Change Youtube API Key#####
+In index.js, change constant API_KEY to your key.
+You can take your API key with a google acount in: https://console.developers.google.com
